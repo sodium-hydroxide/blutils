@@ -1,4 +1,4 @@
-#!/Users/dalinar/DATA/projects/blutils/.venv/bin/python3.12
+#!/Users/dalinar/DATA/projects/njbpy/.venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
