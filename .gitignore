@@ -1,9 +1,3 @@
 .venv/
-venv.sh
+.mypy_cache
 *.code-workspace
-.vscode/
-.DS_Store
-dist/
-*.ipynb
-*.svg
-lm.md
