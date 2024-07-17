@@ -1,1 +1,3 @@
 *.code-workspace
+.venv/
+.mypy_cache/
