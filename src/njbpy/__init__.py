@@ -20,9 +20,8 @@ from ._njbpy import (
     re_identify_line
 )
 
-
-__all__ = [
-    "time_now",
-    "clean_split",
-    "re_identify_line"
+__all__=[
+    time_now.__name__,
+    clean_split.__name__,
+    re_identify_line.__name__
 ]
