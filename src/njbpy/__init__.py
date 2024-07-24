@@ -1,17 +1,5 @@
 """Minor Utilities Used by Noah Blair
 
-Functions
----------
-
-time_now : () -> str
-    Return ISO 8601 formatted UTC Time
-
-clean_split : (str) -> list[str]
-    Split strings at a space without keeping empty characters
-
-re_identify_line : (list[str], str) -> NDArray[int64]
-    Idendify lines containing features
-
 """
 
 from ._njbpy import (
@@ -20,8 +8,15 @@ from ._njbpy import (
     re_identify_line
 )
 
+from ._serializer import (
+    json_dump,
+    json_load
+)
+
 __all__=[
     time_now.__name__,
     clean_split.__name__,
-    re_identify_line.__name__
+    re_identify_line.__name__,
+    json_load.__name__,
+    json_dump.__name__
 ]
