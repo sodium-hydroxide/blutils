@@ -1,10 +1,14 @@
 """Source code for Utilities"""
+#region Frontmatter
 
 from datetime import datetime, UTC
 import re
 import numpy as np
 import numpy.typing as npt
 
+#endregion
+
+#region Mainmatter
 
 def time_now() -> str:
     """Return ISO 8601 formatted UTC Time
@@ -51,3 +55,14 @@ def re_identify_line(
     )
 
     return line_numbers
+
+#endregion
+
+#region Backmatter
+__all__=[
+    time_now.__name__,
+    clean_split.__name__,
+    re_identify_line.__name__
+]
+
+#endregion
